@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ecommerce Website Design</title>
+
+	<!----Custom css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+    	<!----header start--->
+	<header>
+		<a href="#" class="logo">Notebooks</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="navbar">
+			<li><a href="#shop">Shop</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#faq">Faq</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+
+		<div class="icons">
+			<a href="#"><i class='bx bx-search'></i></a>
+			<a href="#"><i class='bx bxs-user-circle' ></i></a>
+			<a href="#"><i class='bx bxs-shopping-bag' ></i></a>
+      <span id = "cart-count-info">0</span>
+		</div>
+
+	 </header>
+	 <!-- ===================Shop Feature Section============================ -->
+	 <section class="shop-feature">
+		<div>
+			<p class="feature">
+				Home <span aria-hidden="true" class="margin">></span> Products
+			</p>
+		</div>
+		<h2 class="secName">Produst</h2>
+	 </section>
+		 <!-- =================== End Shop Feature Section============================ -->
+	
+		 	 <!-- =================== Products  Section============================ -->
+ 
+  <section class="shop" id="shop">
+		<div class="shop-main-container grid">
+			      <!-- -------------------Inner Section=============== -->
+
+						<div>
+							<div class="shop-title ">
+								<div >
+									<h2 class="innerTitle">Shop</h2>
+									<p class="innerResults">Showing 1-9 of 10 results</p>
+								</div>
+							  <div>
+									<select name="text"  class="category">
+										<option value="">Default Sorting</option>
+										<option value="">Short By popularity</option>
+										<option value="">Short By Average rating</option>
+										<option value="">Short By latest</option>
+										<option value="">Short By price: Low To High</option>
+										<option value="">Short By price: High To Low</option>
+									</select>
+							</div>
+							</div>
+							<!-- ---------------End----Inner Section=============== -->
+
+             <div class="product-grid">
+							<div class="container">
+				        <!--Products render json here -->
+				
+			        </div>
+			       <div class="next-page flex">
+				        <span class="red-next">1</span>
+				        <span class="black-next">2</span>
+			        	<span><i class='bx bx-chevrons-right'></i></span>
+		          </div>
+		        </div>
+						 </div>
+
+
+		</div>		
+					      <!-- ==============Shop-product====================== -->
+			<section class="sidebar">
+									<div class="sidebar-search ">
+										<input type="text" placeholder="Search Here" class="search"/>
+				
+										<div>
+											<i class='bx bx-search-alt'></i>
+										 </div>
+									</div>
+	
+									 <aside class="sidebar-category">
+										 <div class="category-list flex">
+											 <h3>Product Categories</h3>
+												<i id="arrow" class='bx bx-chevron-right flex'data-category="false"></i>
+										 </div>
+											<div class="shop-category-list">
+												<ul id="side-nav" class="sidebar-nav ">
+													 <li> Earphone</li>
+													 <li>Gadgets</li>
+													 <li> Gaming</li>
+													 <li> Headphone</li>
+													 <li>Laptop</li>
+													<li>Speaker</li>
+												</ul>
+										 </div>
+									</aside>
+				</section>	
+         <!-- ==============  End Products  Section================ -->
+	</section>
+
+				 <!-- =============Footer Menu=================== -->
+
+		 <section class="footer">
+       <div class="footer-logo">
+				<img src="/images/logo.png" alt="logo">
+          <p>There are many variations passages of Lorem Ipsum available, but the majority have</p>
+					<div class="social-media">
+						<i class='bx bxl-facebook-circle'></i>
+						<i class='bx bxl-instagram-alt' ></i>
+						<i class='bx bxl-telegram' ></i>
+					</div>
+			 </div>
+
+			 <div class="footer-menue">
+				<h3>Quick Links</h3>
+				<li>Home</li>
+				<li>About</li>
+				<li>Shop</li>
+				<li>Contact Us</li>
+			 </div>
+			 <div class="contact">
+				<h3>Contact</h3>
+				<p>+99 (0) 101 0000 888 Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051</p>
+			 </div>
+
+			 <div class="emails">
+				<h3>Subscribe To Our Email</h3>
+				<p class="footer-news">For Latest News & Updates </p>
+				<div class="inputfield">
+					<input type="text" placeholder="Enter Your Email">
+					<button class="footer-buttons">Subscribe</button>
+				</div>
+			 </div>
+		 </section>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
